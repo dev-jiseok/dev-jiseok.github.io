@@ -12,6 +12,7 @@ tags: [websolute,team]
 - 구하민
 - 박소영
 - 최정환
+- 이서영
 
 ### Core Values
 1. 간지나는 개발자
