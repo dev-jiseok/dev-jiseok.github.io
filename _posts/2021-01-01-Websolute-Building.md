@@ -4,6 +4,7 @@ title: Websolute Team Building
 color: rgb(242,85,44)
 tags: [websolute,team]
 ---
+<img src = "CoreValue.jpg" width="100%">
 
 ### Team Members
 - 박기웅
