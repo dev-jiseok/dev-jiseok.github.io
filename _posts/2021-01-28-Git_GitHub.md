@@ -136,7 +136,7 @@ tags: [websolute,team,git,github]
 <br>
 <br>
 
-### Flow: 고수준 관리 기법
+### Flow : 고수준 관리 기법
 
 - Feature - Develop - Release - Hotfix - Master​
 - 목적에 맞추어 5개로 나누어 관리
