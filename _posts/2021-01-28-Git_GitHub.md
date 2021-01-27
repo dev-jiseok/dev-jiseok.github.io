@@ -70,7 +70,7 @@ tags: [websolute,team,git,github]
 
 #### Stage(기록)
 
-<p align="center"><<img width="75%" alt="스크린샷 2021-01-28 오전 6 23 25" src="https://user-images.githubusercontent.com/76767226/106055914-60c8db80-6131-11eb-94f3-9f78960f4730.png"></p>
+<p align="center"><img width="75%" alt="스크린샷 2021-01-28 오전 6 23 25" src="https://user-images.githubusercontent.com/76767226/106055914-60c8db80-6131-11eb-94f3-9f78960f4730.png"></p>
 
 >Index: Commit을 통해 변경사항이 반영되기 전 해당 변경사항들이 저장되는 공간​
 >특정 파일이나 코드를 변경시 해당 이력은 Index에 기록​이 기록되는 행위를 Stage 혹은 Staging이라고 함
