@@ -1,7 +1,7 @@
 ---
 layout : post
 title : React⚛ JSK & PROPS
-color: #0080ff
+color: rgb(242,85,44)
 tags: [websolute,team,React,front-end,web,framework]
 ---
 
