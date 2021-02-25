@@ -21,7 +21,7 @@ import React from "react";
      </div>
    );
  }
- ```
+```
 
 ```javascript
 //src/Potato.js 
