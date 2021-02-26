@@ -1,0 +1,53 @@
+---
+layout : post
+title : React⚛ CONCLUSIONS
+color: rgb(242,85,44)
+tags: [websolute,team,React,front-end,web,framework]
+---
+
+### Deploying to Github Pages
+
+```
+{
+  "name": "movie_app_2021",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.0",
+    "axios": "^0.21.1",
+    "gh-pages": "^3.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://dev-jiseok.github.io/movie_app_2021/"
+}
+```
