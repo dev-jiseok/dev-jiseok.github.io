@@ -9,7 +9,7 @@ tags: [websolute,team,React,front-end,web,framework]
 react-router dom 을 설치해 네비게이션을 만들어 준다.
 react-router dom을 통해 ```<Home.js>```와 ```<About.js>```에 접근하는 방법을 알아본다.
 
-
+{% raw %}
 ```javascript
 //Home.js
 import React from "react";
@@ -65,8 +65,9 @@ class Home extends React.Component {
 
 export default Home;
 ```
+{% endraw %}
 
-
+{% raw %}
 ```javascript
 //Movie.js
 import React from "react";
@@ -117,8 +118,9 @@ Movie.propTypes = {
 };
 export default Movie;
 ```
+{% endraw %}
 
-
+{% raw %}
 ```javascript
 //Detail.js
 
@@ -142,7 +144,9 @@ class Detail extends React.Component {
 }
 export default Detail;
 ```
+{% endraw %}
 
+{% raw %}
 ```javascript
 //Navigation.js
 import React from "react";
@@ -161,7 +165,7 @@ function Navigation() {
 export default Navigation;
 ```
 
-
+{% raw %}
 ```javascript
 //App.js
 import React from "react";
@@ -185,8 +189,9 @@ function App() {
 
 export default App;
 ```
+{% endraw %}
 
-
+{% raw %}
 ```css
 /*Home.css*/
         .container {
@@ -264,8 +269,9 @@ export default App;
           font-size: 14px;
         }
 ```
+{% endraw %}
 
-
+{% raw %}
 ```css
 /*Navigation.css*/
 .nav {
@@ -294,8 +300,9 @@ export default App;
           margin-bottom: 20px;
         }       
 ```
+{% endraw %}
 
-
+{% raw %}
 ```css
 /*Movie.css*/
 .movies .movie {
@@ -350,8 +357,9 @@ export default App;
  font-size: 14px;
 }
 ```
+{% endraw %}
 
-
+{% raw %}
 ```css
 /*App.css*/
 * {
@@ -367,6 +375,6 @@ export default App;
           height: 100%;
         }
 ```
-
+{% endraw %}
 
 완성 코드들..
