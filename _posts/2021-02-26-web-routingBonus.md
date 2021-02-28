@@ -9,6 +9,7 @@ tags: [websolute,team,React,front-end,web,framework]
 react-router dom 을 설치해 네비게이션을 만들어 준다.
 react-router dom을 통해 ```<Home.js>```와 ```<About.js>```에 접근하는 방법을 알아본다.
 
+
 ```javascript
 //Home.js
 import React from "react";
@@ -65,6 +66,7 @@ class Home extends React.Component {
 export default Home;
 ```
 
+
 ```javascript
 //Movie.js
 import React from "react";
@@ -116,6 +118,7 @@ Movie.propTypes = {
 export default Movie;
 ```
 
+
 ```javascript
 //Detail.js
 
@@ -158,6 +161,7 @@ function Navigation() {
 export default Navigation;
 ```
 
+
 ```javascript
 //App.js
 import React from "react";
@@ -182,7 +186,8 @@ function App() {
 export default App;
 ```
 
-```
+
+```css
 /*Home.css*/
         .container {
           height: 100%;
@@ -260,7 +265,8 @@ export default App;
         }
 ```
 
-```
+
+```css
 /*Navigation.css*/
 .nav {
           position: fixed;
@@ -289,7 +295,8 @@ export default App;
         }       
 ```
 
-```
+
+```css
 /*Movie.css*/
 .movies .movie {
   width: 45%;
@@ -344,7 +351,8 @@ export default App;
 }
 ```
 
-```
+
+```css
 /*App.css*/
 * {
           box-sizing: border-box;
@@ -359,5 +367,6 @@ export default App;
           height: 100%;
         }
 ```
+
 
 완성 코드들..
