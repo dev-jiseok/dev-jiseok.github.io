@@ -5,6 +5,7 @@ color: rgb(242,85,44)
 tags: [websolute,team,React,front-end,web,framework]
 ---
 
+
 react-router dom 을 설치해 네비게이션을 만들어 준다.
 react-router dom을 통해 ```<Home.js>```와 ```<About.js>```에 접근하는 방법을 알아본다.
 
@@ -181,7 +182,7 @@ function App() {
 export default App;
 ```
 
-```css
+```
 /*Home.css*/
         .container {
           height: 100%;
@@ -259,7 +260,7 @@ export default App;
         }
 ```
 
-```css
+```
 /*Navigation.css*/
 .nav {
           position: fixed;
@@ -288,7 +289,7 @@ export default App;
         }       
 ```
 
-```css
+```
 /*Movie.css*/
 .movies .movie {
   width: 45%;
@@ -343,7 +344,7 @@ export default App;
 }
 ```
 
-```css
+```
 /*App.css*/
 * {
           box-sizing: border-box;
