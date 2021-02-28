@@ -51,3 +51,16 @@ tags: [websolute,team,React,front-end,web,framework]
   "homepage": "https://dev-jiseok.github.io/movie_app_2021/"
 }
 ```
+
+
+gh-page를 설치하여 나의 깃헙 아이디 뒤에 movie_app 이름을 치면 페이지와 연결되게 해주자! ```"homepage": "https://dev-jiseok.github.io/movie_app_2021/"```을 추가하여 이를 연결해주자
+
+```
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  }
+```
+스크립트에서 deploy 와 predeploy를 추가하여 이를 완성하자!
