@@ -30,6 +30,11 @@ class App extends React.Component {
 export default App;
 ```
 
+일반적이게 사용하는 방법은 fetch()를 이용하는 것.. 하지만 이보다 더 좋은 방법인 axios를 이용하자!
+Axios 는 fetch 위의 작은 layer 같은 것!
+```npm install axios``` 로 설치를 하고 니꼴라스 쌤이 만든 변하지 않는 url을 연결해 준다.
+
+<br>
 <br>
 
 ### Rendering the Movies
@@ -101,6 +106,12 @@ class App extends React.Component {
 export default App;
 ```
 
+```movies.data.data.movies``` 를 사용하는 것보다  ```const { data: {data: { movies } } }```를 사용하여 좀더 깰끔해지자! 
+이어 state를 넣어 연동!
+
+<br>
+<br>
+
 ### Styling the Movies
 
 ```javascript
@@ -163,6 +174,9 @@ body {
  }
 ```
 
+movie.js 에 function을 만들어 style을 만든다. 이를 통하여 ```import Movie from "./Movie";``` 하여 사용한다. 
+
+<br>
 <br>
 
 ### Adding Genres
@@ -269,6 +283,18 @@ body {
         }
 ```
 
+genres를 추가하여 좀더 다양한 정보가 있는 페이지를 생성하자
+Movie.propTypes에 ```genres:PropTypes.arrayOf(PropTypes.string).isRequired};``` 포함시키고 function Movie 인자로 genres 포함시키기
+
+이어서 value설정을 해준다. 내 class를 class로 해도 가능하지만 혼란스러워하는 javascript를 위해 className으로 변경을 하여 혼란을 피한다.
+
+>map을 사용하면 각각의 item은 key값이 필요하기 때문에 에러가 뜬다.
+>map fuction은 2개의 argument 가진다. ex) {genres.map((genre,index)=>( ))}
+>genre: 현재의 item
+>index: item number를 key로 적용
+
+
+<br>
 <br>
 
 ### Styles Timelapse
@@ -463,3 +489,5 @@ body {
           font-size: 14px;
         }
 ```
+
+이쁘게 꾸며준다.! 
