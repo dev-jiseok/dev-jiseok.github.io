@@ -30,5 +30,38 @@ function Example() {
 }
 ```
 
+```javascript
+class App extends React.Component {
+  state = {
+    item: 1,
+  };
+  render() {
+    const { item } = this.state;
+    return (
+      <div className="App">
+        <button onClick={Up}>Increment</button>
+        <button onClick={Down}>Decrement</button>
+      </div>
+    );
+  }
+  Up = () => {
+    this.setState((state) => {
+      return {
+        item: state.item + 1,
+      };
+    });
+  };
+  Down = () => {
+    this.setState((state) => {
+      return {
+        item: state.item - 1,
+      };
+    });
+  };
+}
+```
+
+위의 코드가 Hooks로 짠것 밑이 class로 짠것이다. Hooks가 훨씬 코드가 짧은것을 알수있다!
+
 <br>
 <br>
