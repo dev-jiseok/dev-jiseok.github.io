@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React⚛ Hooks⚛ UseTabs
+title: React⚛ Hooks-UseTabs
 color: rgb(242,85,44)
 tags: [websolute, team, React, Hooks, front-end, web, framework]
 ---
