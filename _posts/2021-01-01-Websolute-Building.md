@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Websolute Team Building
-color: rgb(242,85,44)
-tags: [websolute,team]
+color: rgb(204,102,255)
+tags: [websolute, team]
 ---
+
 <img src = "CoreValue.jpg" width="100%">
 
 ### Team Members
+
 - 박기웅
 - 김연수
 - 이지석
@@ -16,6 +18,7 @@ tags: [websolute,team]
 - 이서영
 
 ### Core Values
+
 1. 간지나는 개발자
 2. 시간약속 엄수
 3. 명확한 보고

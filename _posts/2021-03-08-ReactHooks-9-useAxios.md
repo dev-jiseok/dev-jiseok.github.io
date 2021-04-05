@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React⚛ Hooks-UseAxios
-color: rgb(242,85,44)
+color: rgb(153,204,255)
 tags: [websolute, team, React, Hooks, front-end, web, framework]
 ---
 

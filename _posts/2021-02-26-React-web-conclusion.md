@@ -1,8 +1,8 @@
 ---
-layout : post
-title : React⚛ CONCLUSIONS
-color: rgb(242,85,44)
-tags: [websolute,team,React,front-end,web,framework]
+layout: post
+title: React⚛ CONCLUSIONS
+color: rgb(0,153,255)
+tags: [websolute, team, React, front-end, web, framework]
 ---
 
 ### Deploying to Github Pages
@@ -52,8 +52,7 @@ tags: [websolute,team,React,front-end,web,framework]
 }
 ```
 
-
-gh-page를 설치하여 나의 깃헙 아이디 뒤에 movie_app 이름을 치면 페이지와 연결되게 해주자! ```"homepage": "https://dev-jiseok.github.io/movie_app_2021/"```을 추가하여 이를 연결해주자
+gh-page를 설치하여 나의 깃헙 아이디 뒤에 movie_app 이름을 치면 페이지와 연결되게 해주자! `"homepage": "https://dev-jiseok.github.io/movie_app_2021/"`을 추가하여 이를 연결해주자
 
 ```
 "scripts": {
@@ -63,4 +62,5 @@ gh-page를 설치하여 나의 깃헙 아이디 뒤에 movie_app 이름을 치�
     "predeploy": "npm run build"
   }
 ```
+
 스크립트에서 deploy 와 predeploy를 추가하여 이를 완성하자!

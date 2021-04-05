@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React⚛ Hooks-UseBeforeLeave
-color: rgb(242,85,44)
+color: rgb(102,153,255)
 tags: [websolute, team, React, Hooks, front-end, web, framework]
 ---
 

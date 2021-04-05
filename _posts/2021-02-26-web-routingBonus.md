@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React⚛ ROUTING BONUS
-color: rgb(242,85,44)
+color: rgb(0,153,255)
 tags: [websolute, team, React, front-end, web, framework]
 ---
 
