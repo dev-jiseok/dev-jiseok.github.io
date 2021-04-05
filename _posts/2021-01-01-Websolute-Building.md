@@ -10,7 +10,7 @@ tags: [websolute, team]
 ### Team Members
 
 - 박기웅
-- 김연수
+- 노수민
 - 이지석
 - 구하민
 - 박소영
