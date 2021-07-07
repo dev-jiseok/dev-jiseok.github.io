@@ -17,7 +17,7 @@ React를 통한 개발 중 Material-UI를 접하게 되었고 내가 평소에 �
 
 <br />
 
-<p align="center"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nextree.io%2F010-7-3%2F&psig=AOvVaw0PSDstgHYOwxFKetBu_z_N&ust=1625783503122000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCOCT-tOB0vECFQAAAAAdAAAAABAD" width="75%"></p>
+<p align="center"><img src="https://www.nextree.io/content/images/size/w2000/2019/09/1__mdpsmNUZ05vQb-q09t3jA.png" width="75%"></p>
 
 <br />
 
