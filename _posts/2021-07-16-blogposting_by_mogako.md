@@ -12,7 +12,7 @@ tags: [hufstory, team, web, front-end, project, css]
 
 <p align="center"><img src = "https://user-images.githubusercontent.com/76767226/125906480-6b077d73-af8d-4b7c-a4dc-97f14b6c612b.jpg" width="75%"></p>
 
-Grif는 Flex보다 더 복합적인 레이아웃 표현이 가능!
+Grif는 Flex보다 더 복합적인 레이아웃 표현이 가능~!
 
 <br />
 
