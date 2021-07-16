@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oechul_Front_Survey by 모각코
+title: Oechul Front Survey by 모각코
 color: rgb(204,102,255)
 tags: [hufstory, team, web, front-end, project]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oechul_Front_Survey_No.2 by 모각코
+title: Oechul Front Survey 2 by 모각코
 color: rgb(204,102,255)
 tags: [hufstory, team, web, front-end, project, css]
 ---
@@ -14,11 +14,11 @@ tags: [hufstory, team, web, front-end, project, css]
 
 Grif는 Flex보다 더 복합적인 레이아웃 표현이 가능!
 
-<br>
+<br />
 
 Grid 레이아웃을 만들기 위한 기본적인 HTML 구조는 다음과 같다.
 
-```
+```html
 <div class="container">
   <div class="item">A</div>
   <div class="item">B</div>
@@ -36,11 +36,11 @@ Grid 레이아웃을 만들기 위한 기본적인 HTML 구조는 다음과 같�
 
 자식 요소인 div.item들을 Grid Item(그리드 아이템)이라고 부른다.
 
-<strong>컨테이너가 Grid의 영향을 받는 전체 공간이고, 설정된 속성에 따라 각각의 아이템들이 어떤 형태로 배치되는 것</strong>
+#### 컨테이너가 Grid의 영향을 받는 전체 공간이고, 설정된 속성에 따라 각각의 아이템들이 어떤 형태로 배치되는 것
 
 Flex와 마찬가지로, Grid는 컨테이너에 display: grid; 를 설정하는 것으로 시작한다.
 
-```
+```css
 .container {
   display: grid;
 }
