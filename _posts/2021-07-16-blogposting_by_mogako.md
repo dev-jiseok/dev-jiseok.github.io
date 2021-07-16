@@ -18,7 +18,7 @@ Grif는 Flex보다 더 복합적인 레이아웃 표현이 가능!
 
 Grid 레이아웃을 만들기 위한 기본적인 HTML 구조는 다음과 같다.
 
-```html
+```
 <div class="container">
   <div class="item">A</div>
   <div class="item">B</div>
@@ -40,7 +40,7 @@ Grid 레이아웃을 만들기 위한 기본적인 HTML 구조는 다음과 같�
 
 Flex와 마찬가지로, Grid는 컨테이너에 display: grid; 를 설정하는 것으로 시작한다.
 
-```css
+```
 .container {
   display: grid;
 }
