@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://dev-jiseok.github.io"
 title: "Jiseok's blog"
-description: "Team Websolute"
+description: "Developer"
 
 # THEME-SPECIFIC CONFIGURATION
 # Meta
@@ -11,7 +11,7 @@ color_image: /assets/img/lineart.png # In post when you set color
 favicon: assets/favicon.ico
 
 # Header and footer text
-header_text: Pave the way Websolute!
+header_text: "Jiseok's blog"
 header_feature_image: assets/img/pexels/websolute_square.jpg
 footer_text: Copyright 2020
 
